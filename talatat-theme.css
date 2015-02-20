@@ -1,0 +1,68 @@
+#CustomTabWrapper>ul>li {
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    margin: 1px .2em 0 0;
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6 url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+}
+
+#CustomTabWrapper>ul>li>a {
+    margin-right: 0px;
+    padding: .5em 1em;
+
+}
+
+#CustomTabWrapper>ul>li>a,
+#CustomTabWrapper>ul>li>a:link,
+#CustomTabWrapper>ul>li>a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+#CustomTabWrapper>ul>li>a:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+#CustomTabWrapper>ul>li.active {
+    border-bottom-color: #fff;
+    margin-bottom: -1px;
+    padding-bottom: 2px;
+    border-bottom-width: 0;
+    background-image:  -moz-linear-gradient(bottom, #fff 2px, transparent 2px);
+    background-image:  -o-linear-gradient(bottom, #fff 2px, transparent 2px);
+    background-image:  -webkit-linear-gradient(bottom, #fff 2px, transparent 2px);
+    background-image:  linear-gradient(bottom, #fff 2px, transparent 2px);
+}
+
+#CustomTabWrapper>div {
+    padding: 10px 10px 10px 10px;
+}
+
+#CustomTabWrapper>div {
+    border: 1px solid #ddd;
+    background: transparent;
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    margin-top: -1px;
+    border-top: transparent
+}
+
+.panel_margin {
+margin: 15px
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+display: none !important;
+}
+
+.ng-invalid.ng-dirty{
+border-color:#FA787E;
+}
+.ng-valid.ng-dirty{
+border-color:#78FA89;
+}

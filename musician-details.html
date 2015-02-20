@@ -1,0 +1,22 @@
+<!--Tabs-->
+<div id="CustomTabWrapper">
+    <ul class="nav nav-tabs">
+        <li role="presentation" ng-class="(active:detail.isSelected(1))"><a href ng-click="detail.selectTab(1)">Instrument</a></li>
+        <li role="presentation" ng-class="(active:detail.isSelected(2))"><a href ng-click="detail.selectTab(2)">Conservatory</a></li>
+        <li role="presentation" ng-class="(active:detail.isSelected(3))"><a href ng-click="detail.selectTab(3)">Referral</a></li>
+    </ul>
+</div>
+
+<!--Panels-->
+<div class="panel panel_margin" ng-show="detail.isSelected(1)">
+    <p>{{musician.instrument_maker}}</p>
+</div>
+<div class="panel panel_margin" ng-show="detail.isSelected(2)">
+    <p>{{musician.conservatory}}</p>
+</div>
+<div class="panel panel_margin" ng-show="detail.isSelected(3)">
+    <p>{{musician.referral}}</p>
+</div>
+<div>
+    <p><a class="btn btn-primary" href="#" role="button">Book Artist</a></p>
+</div>
