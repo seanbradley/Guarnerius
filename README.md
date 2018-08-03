@@ -1,8 +1,8 @@
-#Guarnerius
-####An app for finding and booking professional musicians--powered by Python; built on Angular.js and Mongo.
+# Guarnerius
+#### An app for finding and booking professional musicians--powered by Python; built on Angular.js and Mongo.
 
 
-###ABOUT GUARNERIUS
+### ABOUT GUARNERIUS
 
 This is a work in progress, a pre-beta release. You can see the site live at:
 
@@ -10,16 +10,16 @@ This is a work in progress, a pre-beta release. You can see the site live at:
 
 You must be a professional musician to register on the live site. If you're a developer and want access, e-mail the repo's maintainer. (See below.)
 
-###TECHNOLOGY STACK
+### TECHNOLOGY STACK
 Guarnerius is built on Angular and Node, and installed on an AWS EC2 server (Ubuntu Precise 12.04-i386) associated with an Elastic IP. It is meant to serve as the client to the Talatat API built on Pyramid. Site styling is provided courtesy of Bootstrap.  All HTML5/CSS3 is fully validated. Right now, the live site is simply a Flask-powered landing page.
 
-###HOW TO RUN
+### HOW TO RUN
 Right now, a shell script is included to launch a Node dev server in the main app directory. This should serve the Javascript files as required.
 
 
 ------------------------------------------------------------------------
 
-###LICENSE AND CONTACT INFO
+### LICENSE AND CONTACT INFO
 
 Copyright © 2013/2014/2015 by Sean Bradley.
 
